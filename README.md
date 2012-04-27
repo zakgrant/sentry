@@ -1,5 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/zakgrant/sentry.png?branch=master)](http://travis-ci.org/zakgrant/sentry)
 # Sentry
+[![Build Status](https://secure.travis-ci.org/zakgrant/sentry.png?branch=master)](http://travis-ci.org/zakgrant/sentry) [![Dependency Status](https://gemnasium.com/zakgrant/sentry.png)](https://gemnasium.com/zakgrant/sentry)
+
 
 TODO: Write a gem description
 
