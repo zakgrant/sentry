@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Sentry::VERSION
 
-  gem.add_dependency 'sinatra', '1.3.0'
+  gem.add_dependency 'sinatra', '1.3.2'
   gem.add_dependency 'thin'
   gem.add_dependency 'arduino', '0.4'
 
