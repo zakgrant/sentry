@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "sentry"
   gem.require_paths = ["lib"]
-  gem.version       = Sentry::VERSION
+  gem.version       = Sentry::Version::STRING
 
   gem.add_dependency 'sinatra', '1.3.2'
   gem.add_dependency 'thin'
@@ -25,6 +25,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'yard'
   gem.add_development_dependency 'redcarpet'
   gem.add_development_dependency 'rspec', '2.9'
-  gem.add_development_dependency 'shoulda'
+  gem.add_development_dependency 'shoulda-matchers'
   gem.add_development_dependency 'simplecov', '0.6.2'
 end
