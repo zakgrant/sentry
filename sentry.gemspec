@@ -19,8 +19,12 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'thin'
   gem.add_dependency 'arduino', '0.4'
 
+  gem.add_development_dependency 'bundler'
+  gem.add_development_dependency 'jeweler'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'yard'
+  gem.add_development_dependency 'redcarpet'
   gem.add_development_dependency 'rspec', '2.9'
-
   gem.add_development_dependency 'shoulda'
   gem.add_development_dependency 'simplecov', '0.6.2'
 end
