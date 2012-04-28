@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Zak Grant"]
-  s.date = "2012-04-27"
+  s.date = "2012-04-28"
   s.description = "TODO: longer description of your gem"
   s.email = "zakgrant@gmail.com"
   s.extra_rdoc_files = [
@@ -37,10 +37,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.11"
   s.summary = "TODO: one-line summary of your gem"
 
-  s.add_dependency 'sinatra'
-  s.add_dependency 'thin'
-  s.add_dependency 'arduino'
-
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
@@ -57,6 +53,9 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<guard>, [">= 0"])
       s.add_development_dependency(%q<guard-rspec>, [">= 0"])
       s.add_development_dependency(%q<guard-bundler>, [">= 0"])
+      s.add_development_dependency(%q<guard>, [">= 0"])
+      s.add_development_dependency(%q<guard-rspec>, [">= 0"])
+      s.add_development_dependency(%q<guard-bundler>, [">= 0"])
     else
       s.add_dependency(%q<sentry>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
@@ -67,6 +66,9 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, ["= 2.9"])
       s.add_dependency(%q<shoulda-matchers>, [">= 0"])
       s.add_dependency(%q<simplecov>, ["= 0.6.2"])
+      s.add_dependency(%q<guard>, [">= 0"])
+      s.add_dependency(%q<guard-rspec>, [">= 0"])
+      s.add_dependency(%q<guard-bundler>, [">= 0"])
       s.add_dependency(%q<guard>, [">= 0"])
       s.add_dependency(%q<guard-rspec>, [">= 0"])
       s.add_dependency(%q<guard-bundler>, [">= 0"])
@@ -81,6 +83,9 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec>, ["= 2.9"])
     s.add_dependency(%q<shoulda-matchers>, [">= 0"])
     s.add_dependency(%q<simplecov>, ["= 0.6.2"])
+    s.add_dependency(%q<guard>, [">= 0"])
+    s.add_dependency(%q<guard-rspec>, [">= 0"])
+    s.add_dependency(%q<guard-bundler>, [">= 0"])
     s.add_dependency(%q<guard>, [">= 0"])
     s.add_dependency(%q<guard-rspec>, [">= 0"])
     s.add_dependency(%q<guard-bundler>, [">= 0"])
