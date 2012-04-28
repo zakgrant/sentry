@@ -37,6 +37,10 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.11"
   s.summary = "TODO: one-line summary of your gem"
 
+  s.add_dependency 'sinatra'
+  s.add_dependency 'thin'
+  s.add_dependency 'arduino'
+
   if s.respond_to? :specification_version then
     s.specification_version = 3
 

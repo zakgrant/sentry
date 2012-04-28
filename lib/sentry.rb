@@ -1,5 +1,8 @@
-require "sentry/version"
+require 'sinatra'
+require 'thin'
+require 'arduino'
 
 module Sentry
-  # Your code goes here...
 end
+
+require "sentry/version"

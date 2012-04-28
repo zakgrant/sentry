@@ -1,5 +1,5 @@
-class Sentry
-  module Version 
+module Sentry
+ class  Version 
     MAJOR = 0 
     MINOR = 0
     PATCH = 1
